@@ -8,6 +8,7 @@ import { Section } from "../components/section";
 // ajust statusbar
 import  Constants  from "expo-constants";
 import Search from "../components/search";
+import TrendingFoods from "../components/trending";
 const statusBarsHeight = Constants.statusBarHeight;
 
 export default function Index() {
@@ -24,7 +25,8 @@ export default function Index() {
           size="text-xl"
           action={() => alert('Clicou')}
         />
-        
+
+        <TrendingFoods/>
         </View>
     </ScrollView>
   );
