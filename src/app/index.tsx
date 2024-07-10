@@ -6,6 +6,7 @@ import { Banner } from "../components/banner";
 
 // ajust statusbar
 import  Constants  from "expo-constants";
+import Search from "../components/search";
 const statusBarsHeight = Constants.statusBarHeight;
 
 export default function Index() {
@@ -14,6 +15,7 @@ export default function Index() {
       <View className="w-full px-4" style={{marginTop:statusBarsHeight + 8}}>
         <Header/>
         <Banner/>
+        <Search/>
       </View>
     </ScrollView>
   );
