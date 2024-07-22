@@ -4,6 +4,7 @@ import { Text, View, ScrollView } from "react-native";
 import { Header } from "../components/header";
 import { Banner } from "../components/banner";
 import { Section } from "../components/section";
+import { Restaurants } from "../components/restaurants";
 
 // ajust statusbar
 import  Constants  from "expo-constants";
@@ -27,7 +28,16 @@ export default function Index() {
         />
 
         <TrendingFoods/>
-        </View>
+
+        <Section 
+          name="Comidas Famosas" 
+          label="Veja todas" 
+          size="text-xl"
+          action={() => alert('Clicou')}
+        />
+        <Restaurants/>
+        
+      </View>
     </ScrollView>
   );
 }

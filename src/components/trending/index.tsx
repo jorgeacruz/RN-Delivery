@@ -22,7 +22,7 @@ export default function TrendingFoods() {
     
     useEffect(() => {
         async function getFoods() {
-            const response = await fetch("http://192.168.1.116:3000/foods")
+            const response = await fetch("http://192.168.1.104:3000/foods")
             const data = await response.json()
             setFoods(data);
         }
