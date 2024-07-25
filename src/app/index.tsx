@@ -5,7 +5,7 @@ import { Header } from "../components/header";
 import { Banner } from "../components/banner";
 import { Section } from "../components/section";
 import { Restaurants } from "../components/restaurants";
-import { RestaurantsVerticalLists } from "../components/lists";
+import { RestaurantsVerticalLists }  from "../components/lists";
 
 // ajust statusbar
 import  Constants  from "expo-constants";

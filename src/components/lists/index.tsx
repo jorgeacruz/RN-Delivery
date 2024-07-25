@@ -1,11 +1,12 @@
-import { View, Text, Pressable } from 'react-native';
+import { View, Text } from 'react-native';
 import { useState, useEffect } from 'react';
 import { RestaurantItem } from './item';
 
-interface RestaurantsProps{
+export interface RestaurantsProps{
   id:string;
   name:string;
   image:string;
+  star:number;
 }
 
 export function RestaurantsVerticalLists() {
@@ -14,7 +15,7 @@ export function RestaurantsVerticalLists() {
 
   useEffect(() => {
     async function getFoods() {
-        const response = await fetch("http://192.168.1.104:3000/restaurants")
+        const response = await fetch("http://192.168.1.108:3000/restaurants")
         const data = await response.json()
         setRestaurants(data);
     }
@@ -24,7 +25,9 @@ export function RestaurantsVerticalLists() {
 
  return (
    <View>
-    <Text>aqui</Text>
+    {restautants.map( item => (
+      <RestaurantItem item={item} key={item.id}/>
+    ))}
    </View>
   );
 }
