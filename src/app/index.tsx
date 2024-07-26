@@ -1,5 +1,5 @@
-import { Text, View, ScrollView } from "react-native";
-
+import { View, ScrollView } from "react-native";
+import ToastManager, { Toast } from 'toastify-react-native'
 //components
 import { Header } from "../components/header";
 import { Banner } from "../components/banner";
@@ -16,6 +16,7 @@ const statusBarsHeight = Constants.statusBarHeight;
 export default function Index() {
   return (
     <ScrollView style={{flex:1}} className="bg-white" showsVerticalScrollIndicator={false}>
+      <ToastManager />
       <View className="w-full px-4" style={{marginTop:statusBarsHeight + 8}}>
         <Header/>
         <Banner/>
@@ -25,7 +26,7 @@ export default function Index() {
           name="Comidas em alta" 
           label="Veja Mais" 
           size="text-xl"
-          action={() => alert('Clicou')}
+          action={() => Toast.success('Veja mais')}
         />
 
         <TrendingFoods/>
@@ -34,7 +35,7 @@ export default function Index() {
           name="Comidas Famosas" 
           label="Veja todas" 
           size="text-xl"
-          action={() => alert('Clicou')}
+          action={() => Toast.success('Veja mais')}
         />
         <Restaurants/>
 
@@ -42,7 +43,7 @@ export default function Index() {
           name="Restaurantes" 
           label="Veja todas" 
           size="text-xl"
-          action={() => alert('Clicou')}
+          action={() => Toast.success('Veja mais')}
         />
         <RestaurantsVerticalLists/>
         

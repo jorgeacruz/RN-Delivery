@@ -1,11 +1,13 @@
 import { View, Pressable, Text, Image } from 'react-native';
 import { RestaurantsProps } from '..';
 
+import ToastManager, { Toast } from 'toastify-react-native'
+
 export function RestaurantItem({ item }: { item: RestaurantsProps} ) {
  return (
    <Pressable 
         className='flex items-center justify-center p-1 gap-1'
-        onPress={() => alert('Escolheu ' + item.name)}>
+        onPress={() => Toast.error(item.name)}>
         <Image
             source={{ uri: item.image}}
             className='rounded-full w-20 h-20'
