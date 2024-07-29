@@ -6,6 +6,7 @@ import { Banner } from "../components/banner";
 import { Section } from "../components/section";
 import { Restaurants } from "../components/restaurants";
 import { RestaurantsVerticalLists }  from "../components/lists";
+import ArtesanalBurguer from "../components/trending/artBurguer";
 
 // ajust statusbar
 import  Constants  from "expo-constants";
@@ -23,20 +24,20 @@ export default function Index() {
         <Search/>
 
         <Section 
-          name="Comidas em alta" 
+          name="Artesanal Burguer" 
           label="Veja Mais" 
           size="text-xl"
           action={() => Toast.success('Veja mais')}
         />
 
         <TrendingFoods/>
-
         <Section 
-          name="Comidas Famosas" 
+          name="Tradicional Burguer" 
           label="Veja todas" 
           size="text-xl"
           action={() => Toast.success('Veja mais')}
         />
+        <ArtesanalBurguer/>
         <Restaurants/>
 
         <Section 

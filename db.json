@@ -37,31 +37,32 @@
       "star": "3.4"
     }
   ],
-  "foods": [
+
+  "artesanal": [
     { 
       "id": "1", 
-      "name": "Frango assado", 
+      "name": "American Burguer", 
       "price": 39.90,
       "time": "50-60 min",
       "delivery": 5.99,
       "rating": 4.8,
-      "image": "https://i.imgur.com/CEVUdju.png",
+      "image": "https://cdn.jornaldaparaiba.com.br/wp-content/uploads/2022/01/Hope-Burger-1.jpeg?xid=599043",
       "restaurantId": "1"
 
     },
     { 
       "id": "2", 
-      "name": "Marmita fit", 
+      "name": "Brazilian Burguer", 
       "price": 29,
       "time": "30-40 min",
       "delivery": 2.99,
       "rating": 4.9,
-      "image": "https://i.imgur.com/uXRuDFD.png",
+      "image": "https://storage.alboom.ninja/sites/4709/albuns/707991/ilcao.jpg?t=1599741104",
       "restaurantId": "6"
     },
     { 
       "id": "3", 
-      "name": "Burguer Dev", 
+      "name": "Smash Combo", 
       "price": 40,
       "time": "50-60 min",
       "delivery": 5.99,
@@ -81,7 +82,61 @@
     },
     { 
       "id": "5", 
-      "name": "Açai 300ml", 
+      "name": "Hot Smash Triple", 
+      "price": 20,
+      "time": "20-30 min",
+      "delivery": 2.99,
+      "rating": 4.4,
+      "image": "https://i.imgur.com/BaUUCkc.png",
+      "restaurantId": "3"
+    }
+  ],
+
+  "tradicional": [
+    { 
+      "id": "1", 
+      "name": "Double Cheese Burguer", 
+      "price": 39.90,
+      "time": "50-60 min",
+      "delivery": 5.99,
+      "rating": 4.8,
+      "image": "https://www.kcms.com.br/blog/wp-content/uploads/2022/03/cardapio-de-hamburgueria-tradicional.jpg",
+      "restaurantId": "1"
+
+    },
+    { 
+      "id": "2", 
+      "name": "Brazilian Burguer", 
+      "price": 29,
+      "time": "30-40 min",
+      "delivery": 2.99,
+      "rating": 4.9,
+      "image": "https://storage.alboom.ninja/sites/4709/albuns/707991/ilcao.jpg?t=1599741104",
+      "restaurantId": "6"
+    },
+    { 
+      "id": "3", 
+      "name": "Smash Combo", 
+      "price": 40,
+      "time": "50-60 min",
+      "delivery": 5.99,
+      "rating": 4.5,
+      "image": "https://i.imgur.com/O5c3lyU.png",
+      "restaurantId": "5"
+    },
+    { 
+      "id": "4", 
+      "name": "Picanha Grill", 
+      "price": 36,
+      "time": "50-60 min",
+      "delivery": 5.99,
+      "rating": 4.4,
+      "image": "https://i.imgur.com/0UjG3wk.png",
+      "restaurantId": "3"
+    },
+    { 
+      "id": "5", 
+      "name": "Hot Smash Triple", 
       "price": 20,
       "time": "20-30 min",
       "delivery": 2.99,

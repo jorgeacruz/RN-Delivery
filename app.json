@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "delivery",
-    "slug": "delivery",
+    "name": "Food Delivery",
+    "slug": "Food Delivery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
