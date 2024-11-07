@@ -13,6 +13,10 @@ export  function Banner() {
            onPress={() => alert('clicou')} >
               <Image source={require('../../assets/banner2.png')} className='w-full h-36 rounded-2xl' />
           </Pressable>
+          <Pressable className='w-full h-36 rounded-2xl' key="2"
+           onPress={() => alert('clicou')} >
+              <Image source={require('../../assets/banner2.png')} className='w-full h-36 rounded-2xl' />
+          </Pressable>
         </PagerView>
    </View>
   );

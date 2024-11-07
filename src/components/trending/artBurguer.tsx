@@ -31,7 +31,7 @@ export default function ArtesanalBurguer() {
     
     useEffect(() => {
         async function getFoods() {
-            const response = await fetch("http://192.168.1.111:3000/artesanal")
+            const response = await fetch("http://192.168.1.120:3000/artesanal")
             const data = await response.json()
             setFoods(data);
         }

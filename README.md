@@ -3,7 +3,12 @@
 <img src='./foodDelivery.png'/>
 
 <h2>Description</h2>
-<p>The idea was to create a front-end for a food delivery app using NativeWind for simple customization and to ensure responsive design. Dynamically applying a API by JSON-SERVER to populate all products.</p>
+<p>The main idea was create a front-end for a food delivery app. 
+Using all facilities of Nativewind to better and easy customization to ensure responsive design.
+
+Applying Json-Server Api to feel dynamically products and others libraries.
+
+Enjoy</p>
 
 <h2>Documentation</h2>
 

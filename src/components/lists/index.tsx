@@ -15,7 +15,7 @@ export function RestaurantsVerticalLists() {
 
   useEffect(() => {
     async function getFoods() {
-        const response = await fetch("http://192.168.1.111:3000/restaurants")
+        const response = await fetch("http://192.168.1.120:3000/restaurants")
         const data = await response.json()
         setRestaurants(data);
     }
